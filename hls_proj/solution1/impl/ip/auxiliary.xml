@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="lenet5" xd:componentRef="lenet5" xd:initiationInterval="1440329" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(w_conv0)" xd:originalName="w_conv0" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(b_conv0)" xd:originalName="b_conv0" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(w_conv1)" xd:originalName="w_conv1" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(b_conv1)" xd:originalName="b_conv1" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(w_fc0)" xd:originalName="w_fc0" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(b_fc0)" xd:originalName="b_fc0" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(w_fc1)" xd:originalName="w_fc1" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(b_fc1)" xd:originalName="b_fc1" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(feature_in)" xd:originalName="feature_in" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(feature_out)" xd:originalName="feature_out" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="*(result)" xd:originalName="result" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="out"/>
+  <xd:arg xd:name="w_conv0" xd:originalName="w_conv0" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x10" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="b_conv0" xd:originalName="b_conv0" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x1C" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="w_conv1" xd:originalName="w_conv1" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x28" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="b_conv1" xd:originalName="b_conv1" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x34" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="w_fc0" xd:originalName="w_fc0" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x40" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="b_fc0" xd:originalName="b_fc0" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x4C" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="w_fc1" xd:originalName="w_fc1" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x58" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="b_fc1" xd:originalName="b_fc1" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x64" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="feature_in" xd:originalName="feature_in" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x70" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="feature_out" xd:originalName="feature_out" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x7C" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="result" xd:originalName="result" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x88" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="1440328" xd:worst-case="1440328" xd:average-case="1440328"/>
+  <xd:resourceEstimates xd:LUT="17116" xd:FF="15364" xd:BRAM="120" xd:DSP="5"/>
+</xd:acceleratorMap>

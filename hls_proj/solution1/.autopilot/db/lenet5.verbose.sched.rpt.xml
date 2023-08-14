@@ -1,0 +1,54 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'lenet5'" level="0">
+<item name = "Date">Tue Aug  8 21:40:03 2023
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
+<item name = "Project">LeNet5_hls_proj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z100-ffg900-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 9.901 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1440328, 1440328, 14.403 ms, 14.403 ms, 1440329, 1440329, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_32_1_VITIS_LOOP_33_2_VITIS_LOOP_34_3">470136, 470136, 172, 51, 1, 9216, yes</column>
+<column name="- VITIS_LOOP_25_1_VITIS_LOOP_26_2_VITIS_LOOP_27_3">2313, 2313, 11, 1, 1, 2304, yes</column>
+<column name="- VITIS_LOOP_68_1_VITIS_LOOP_69_2_VITIS_LOOP_70_3">890880, 890880, 435, -, -, 2048, no</column>
+<column name=" + VITIS_LOOP_73_4_VITIS_LOOP_74_5_VITIS_LOOP_78_6">417, 417, 19, 1, 1, 400, yes</column>
+<column name="- VITIS_LOOP_47_1_VITIS_LOOP_48_2_VITIS_LOOP_49_3">520, 520, 10, 1, 1, 512, yes</column>
+<column name="- VITIS_LOOP_21_1">70016, 70016, 547, -, -, 128, no</column>
+<column name=" + VITIS_LOOP_24_2_VITIS_LOOP_25_3_VITIS_LOOP_27_4">528, 528, 18, 1, 1, 512, yes</column>
+<column name="- VITIS_LOOP_51_1_VITIS_LOOP_54_2">6420, 6420, 26, 5, 1, 1280, yes</column>
+<column name="- VITIS_LOOP_11_1">11, 11, 4, 1, 1, 9, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

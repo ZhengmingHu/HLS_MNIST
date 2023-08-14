@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="LeNet5.cpp" path="E:\HLSproj\src\LeNet5.cpp"/>
+    <originFiles name="LeNet5.h" path="E:\HLSproj\src\LeNet5.h"/>
+    <originFiles name="conv.cpp" path="E:\HLSproj\src\conv.cpp"/>
+    <originFiles name="linear.cpp" path="E:\HLSproj\src\linear.cpp"/>
+    <originFiles name="pool.cpp" path="E:\HLSproj\src\pool.cpp"/>
+    <originFiles name="softmax.cpp" path="E:\HLSproj\src\softmax.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="E:\HLSproj\src\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

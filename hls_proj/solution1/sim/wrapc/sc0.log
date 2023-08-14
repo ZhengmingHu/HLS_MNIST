@@ -1,0 +1,10 @@
+   Build using "E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling main.cpp_pre.cpp.tb.cpp
+   Compiling pool.cpp_pre.cpp.tb.cpp
+   Compiling softmax.cpp_pre.cpp.tb.cpp
+   Compiling conv.cpp_pre.cpp.tb.cpp
+   Compiling linear.cpp_pre.cpp.tb.cpp
+   Compiling LeNet5.cpp_pre.cpp.tb.cpp
+   Compiling apatb_lenet5.cpp
+   Compiling apatb_lenet5_ir.ll
+   Generating cosim.tv.exe

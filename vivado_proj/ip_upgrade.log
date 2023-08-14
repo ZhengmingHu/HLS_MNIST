@@ -1,0 +1,37 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  8 22:11:39 2023
+| Host         : MADjerk running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z100ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_lenet5_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_lenet5_0_0 (xilinx.com:hls:lenet5:1.0 (Rev. 2113154649)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  8 22:11:26 2023
+| Host         : MADjerk running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z100ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_lenet5_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_lenet5_0_0 (xilinx.com:hls:lenet5:1.0) from (Rev. 2113152680) to (Rev. 2113154649)
+

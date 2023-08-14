@@ -1,0 +1,1749 @@
+INFO-FLOW: Workspace E:/HLSproj/LeNet5_hls_proj/solution1 opened at Tue Aug 08 21:38:55 +0800 2023
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute       ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+DBG:HLSDevice: Trying to load device library: E:/Downloadcache/Xilinx/Vitis_HLS/2020.2\lib\win64.o\librdi_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: E:/Downloadcache/Xilinx/Vivado/2020.2/data/parts/arch.xml
+Command       ap_part_info done; 0.765 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         ap_part_info -data single -name xc7z100-ffg900-2 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute         config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_chip_info -speed medium 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_library_info -library zynq_medium 
+Execute         config_library_info -family zynq 
+Execute         config_library_info -part xc7z100:-ffg900:-2 
+Execute         import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       add_library done; 0.14 sec.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.939 sec.
+Execute     ap_part_info -data single -name xc7z100-ffg900-2 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute     config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_chip_info -speed medium 
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     get_config_interface -m_axi_latency 
+Execute     get_config_interface -m_axi_alignment_byte_size 
+Execute     get_config_interface -m_axi_max_widen_bitwidth 
+Execute     get_config_interface -default_interface 
+Execute     get_config_interface -m_axi_offset 
+Execute     get_config_rtl -register_reset_num 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -format=ip_catalog 
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -rtl=verilog 
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+Execute     config_export -rtl=verilog 
+Command   open_solution done; 1.236 sec.
+Execute   set_part xc7z100-ffg900-2 
+INFO: [HLS 200-1510] Running: set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute     ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute       get_default_platform 
+Execute       open_platform DefaultPlatform 
+Execute       ap_part_info -data single -name xc7z100-ffg900-2 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute       config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_chip_info -speed medium 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_library_info -library zynq_medium 
+Execute       config_library_info -family zynq 
+Execute       config_library_info -part xc7z100:-ffg900:-2 
+Execute       import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     add_library done; 0.117 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 0.156 sec.
+Execute   create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+Execute   config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+Execute   source ./LeNet5_hls_proj/solution1/directives.tcl 
+Execute     set_directive_top -name lenet5 lenet5 
+INFO: [HLS 200-1510] Running: set_directive_top -name lenet5 lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 971.541 MB.
+INFO: [HLS 200-10] Analyzing design file 'src/LeNet5.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling src/LeNet5.cpp as C++
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang src/LeNet5.cpp -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.cpp.err.log 
+Command       ap_eval done; 0.179 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+Execute       set_directive_top lenet5 -name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/try/try.tcl 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       list_core -type functional_unit 
+Execute       clang_tidy xilinx-systemc-detector E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.438 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.659 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.717 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 1.4 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.LeNet5.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.LeNet5.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.LeNet5.pp.0.cpp.err.log 
+Command         ap_eval done; 0.857 sec.
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl 
+Command       clang_tidy done; 0.875 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.LeNet5.pp.0.cpp.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.LeNet5.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.LeNet5.pp.0.cpp.err.log 
+Command       ap_eval done; 0.388 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.LeNet5.pp.0.cpp.err.log 
+Command       ap_eval done; 0.383 sec.
+INFO: [HLS 200-10] Analyzing design file 'src/conv.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling src/conv.cpp as C++
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang src/conv.cpp -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.cpp.err.log 
+Command       ap_eval done; 0.115 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.1 seconds per iteration
+Execute       set_directive_top lenet5 -name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       list_core -type functional_unit 
+Execute       clang_tidy xilinx-systemc-detector E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.395 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.413 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.479 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.9 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.conv.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.conv.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.conv.pp.0.cpp.err.log 
+Command         ap_eval done; 0.913 sec.
+Command       clang_tidy done; 0.944 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.conv.pp.0.cpp.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.conv.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.conv.pp.0.cpp.err.log 
+Command       ap_eval done; 0.373 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.conv.pp.0.cpp.err.log 
+Command       ap_eval done; 0.392 sec.
+INFO: [HLS 200-10] Analyzing design file 'src/linear.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling src/linear.cpp as C++
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang src/linear.cpp -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.cpp.err.log 
+Command       ap_eval done; 0.117 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.1 seconds per iteration
+Execute       set_directive_top lenet5 -name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       list_core -type functional_unit 
+Execute       clang_tidy xilinx-systemc-detector E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.38 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.363 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.43 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.8 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.linear.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.linear.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.linear.pp.0.cpp.err.log 
+Command         ap_eval done; 0.853 sec.
+Command       clang_tidy done; 0.875 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.linear.pp.0.cpp.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.linear.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.linear.pp.0.cpp.err.log 
+Command       ap_eval done; 0.348 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.linear.pp.0.cpp.err.log 
+Command       ap_eval done; 0.36 sec.
+INFO: [HLS 200-10] Analyzing design file 'src/pool.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling src/pool.cpp as C++
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang src/pool.cpp -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.cpp.err.log 
+Command       ap_eval done; 0.115 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.1 seconds per iteration
+Execute       set_directive_top lenet5 -name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       list_core -type functional_unit 
+Execute       clang_tidy xilinx-systemc-detector E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.389 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.383 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.455 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.8 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.pool.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.pool.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.pool.pp.0.cpp.err.log 
+Command         ap_eval done; 0.894 sec.
+Command       clang_tidy done; 0.92 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.pool.pp.0.cpp.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.pool.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.pool.pp.0.cpp.err.log 
+Command       ap_eval done; 0.369 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.pool.pp.0.cpp.err.log 
+Command       ap_eval done; 0.391 sec.
+INFO: [HLS 200-10] Analyzing design file 'src/softmax.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling src/softmax.cpp as C++
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang src/softmax.cpp -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.cpp.err.log 
+Command       ap_eval done; 0.116 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.1 seconds per iteration
+Execute       set_directive_top lenet5 -name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute       list_core -type functional_unit 
+Execute       clang_tidy xilinx-systemc-detector E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/.systemc_flag -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.361 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp std=gnu++14 -target fpga  -directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/all.directive.json -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.359 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.43 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.8 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.softmax.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-top-parameters,xilinx-array-stream-check,xilinx-warn-mayneed-no-ctor-attribute -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.softmax.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang-tidy.softmax.pp.0.cpp.err.log 
+Command         ap_eval done; 0.81 sec.
+Command       clang_tidy done; 0.823 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.softmax.pp.0.cpp.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.softmax.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/xilinx-dataflow-lawyer.softmax.pp.0.cpp.err.log 
+Command       ap_eval done; 0.351 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot -I E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.pp.0.cpp.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.softmax.pp.0.cpp.err.log 
+Command       ap_eval done; 0.354 sec.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 15.73 seconds; current allocated memory: 193.784 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.0.bc -args  "E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.g.bc" "E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.g.bc" "E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.g.bc" "E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.g.bc" "E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.g.bc"  
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/llvm-link E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/LeNet5.g.bc E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/conv.g.bc E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/linear.g.bc E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/pool.g.bc E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/softmax.g.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.0.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.err.log 
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.1.lower.bc -args E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.1.lower.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.err.log 
+INFO-FLOW: 
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.2.m1.bc -args E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libhlsm_39.bc E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libhlsmc++_39.bc 
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/llvm-link E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libhlsm_39.bc E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libhlsmc++_39.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.2.m1.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.2.m1.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.2.m1.bc.err.log 
+Command         ap_eval done; 1.955 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 1.956 sec.
+Execute       run_link_or_opt -opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -args E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=lenet5 -reflow-float-conversion 
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=lenet5 -reflow-float-conversion -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.3.fpc.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.err.log 
+Command         ap_eval done; 0.712 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 0.713 sec.
+Execute       run_link_or_opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.4.m2.bc -args E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libfloatconversion_39.bc 
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/llvm-link E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/lib/libfloatconversion_39.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.4.m2.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.4.m2.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/llvm-link.a.g.ld.4.m2.bc.err.log 
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.5.gdce.bc -args E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=lenet5 
+Execute         ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.diag.yml E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.5.gdce.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.err.log 
+INFO-FLOW: 
+Execute       get_solution -flow_target 
+Execute       get_config_export -xo 
+Execute       get_config_export -format 
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_interface -default_slave_interface 
+Execute       get_solution -flow_target 
+Execute       get_config_export -xo 
+Execute       get_config_export -format 
+Execute       get_config_interface -m_axi_offset 
+Execute       get_config_interface -m_axi_latency 
+Execute       get_config_interface -m_axi_alignment_byte_size 
+Execute       get_config_interface -m_axi_min_bitwidth 
+Execute       get_config_interface -m_axi_max_bitwidth 
+Execute       get_config_interface -m_axi_max_widen_bitwidth 
+Execute       get_config_interface -m_axi_num_read_outstanding 
+Execute       get_config_interface -m_axi_num_write_outstanding 
+Execute       get_config_interface -m_axi_max_read_burst_length 
+Execute       get_config_interface -m_axi_max_write_burst_length 
+Execute       get_config_interface -m_axi_min_bitwidth 
+Execute       get_config_interface -m_axi_max_bitwidth 
+Execute       get_config_interface -m_axi_latency 
+Execute       get_config_interface -m_axi_min_bitwidth 
+Execute       get_config_interface -m_axi_max_bitwidth 
+Execute       get_config_interface -m_axi_max_widen_bitwidth 
+Execute       get_config_interface -m_axi_auto_max_ports 
+Execute       get_config_interface -m_axi_num_read_outstanding 
+Execute       get_config_interface -m_axi_num_write_outstanding 
+Execute       get_config_interface -m_axi_max_read_burst_length 
+Execute       get_config_interface -m_axi_max_write_burst_length 
+Execute       get_config_interface -s_axilite_data64 
+Execute       get_config_interface -m_axi_alignment_byte_size 
+Execute       get_config_compile -pragma_strict_mode 
+Execute       get_config_compile -pipeline_style 
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+Execute       ap_eval exec -ignorestderr E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.a.g.ld.0.bc.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=lenet5 -mllvm -hls-db-dir -mllvm E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=off -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -assume-maxi-align=0 -mllvm -no-unaligned-maxi-accesses -mllvm -reflow-pipeline-style-llvm-setting=0 -mllvm -disable-inlined-alloca-merging=true -x ir E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.ld.5.gdce.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.lto.bc > E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.a.g.ld.0.bc.out.log 2> E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/clang.a.g.ld.0.bc.err.log 
+Command       ap_eval done; 0.302 sec.
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::RType<32, true>::mult operator*<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:339)
+INFO: [HLS 214-131] Inlining function 'ap_int<48>::ap_int<48, true>(ap_int_base<48, true> const&)' into 'ap_int_base<16, false>::RType<32, true>::mult operator*<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:551)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<16, false>::RType<32, true>::mult operator*<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<32, true>::mult operator*<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:481)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::ap_int_base<48, true>(ap_int_base<48, true> const&)' into 'ap_int_base<48, true>::RType<32, true>::mult operator*<48, true, 32, true>(ap_int_base<48, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:339)
+INFO: [HLS 214-131] Inlining function 'ap_int<80>::ap_int<80, true>(ap_int_base<80, true> const&)' into 'ap_int_base<48, true>::RType<32, true>::mult operator*<48, true, 32, true>(ap_int_base<48, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:551)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<48, true>::RType<32, true>::mult operator*<48, true, 32, true>(ap_int_base<48, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1345:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<32, true>::mult operator*<48, true, 32, true>(ap_int_base<48, true> const&, ap_int_base<32, true> const&)' into 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:481)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::ap_int_base<80, true>(ap_int_base<80, true> const&)' into 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:339)
+INFO: [HLS 214-131] Inlining function 'ap_int<81>::ap_int<81, true>(ap_int_base<81, true> const&)' into 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:551)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::ap_int_base<48, true>(ap_int_base<48, true> const&)' into 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::ap_int_base<81, true>(ap_int_base<81, true> const&)' into 'ap_int_base<81, true>::RType<32, true>::plus operator+<81, true, 32, true>(ap_int_base<81, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:339)
+INFO: [HLS 214-131] Inlining function 'ap_int<82>::ap_int<82, true>(ap_int_base<82, true> const&)' into 'ap_int_base<81, true>::RType<32, true>::plus operator+<81, true, 32, true>(ap_int_base<81, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:551)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<81, true>::RType<32, true>::plus operator+<81, true, 32, true>(ap_int_base<81, true> const&, ap_int_base<32, true> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:1006)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<32, true>::plus operator+<81, true, 32, true>(ap_int_base<81, true> const&, ap_int_base<32, true> const&)' into 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:1004)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:40:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:26)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:38)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:33)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:35)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:30)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:44:27)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'conv_layer0(float*, float*, float*, float*)' (src/conv.cpp:41:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<32, true>::RType<16, false>::plus operator+<32, true, 16, false>(ap_int_base<32, true> const&, ap_int_base<16, false> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:339)
+INFO: [HLS 214-131] Inlining function 'ap_int<33>::ap_int<33, true>(ap_int_base<33, true> const&)' into 'ap_int_base<32, true>::RType<16, false>::plus operator+<32, true, 16, false>(ap_int_base<32, true> const&, ap_int_base<16, false> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:551)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<32, true>::RType<16, false>::plus operator+<32, true, 16, false>(ap_int_base<32, true> const&, ap_int_base<16, false> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1346:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(int, ap_int_base<16, false> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:739)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::RType<16, false>::plus operator+<32, true, 16, false>(ap_int_base<32, true> const&, ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(int, ap_int_base<16, false> const&)' (E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1461:777)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:34:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::operator long long() const' into 'pool_layer0(float*, float*)' (src/pool.cpp:39:17)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(int, ap_int_base<16, false> const&)' into 'pool_layer0(float*, float*)' (src/pool.cpp:39:37)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:38:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:81)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:75)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:77)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:71)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:68)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:45)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:39)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:41)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:35)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:36:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer0(float*, float*)' (src/pool.cpp:35:23)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:76:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:26)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:40)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:34)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:36)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:30)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:80:27)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'conv_layer1(float*, float*, float*, float*)' (src/conv.cpp:77:23)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:56:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::operator long long() const' into 'pool_layer1(float*, float*)' (src/pool.cpp:61:17)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(int, ap_int_base<16, false> const&)' into 'pool_layer1(float*, float*)' (src/pool.cpp:61:36)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:60:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:66)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:79)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:73)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:75)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:69)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<82, true>::operator long long() const' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<81, true>::RType<($_0)32, true>::plus operator+<81, true>(ap_int_base<81, true> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:44)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<80, true>::RType<48, true>::plus operator+<80, true, 48, true>(ap_int_base<80, true> const&, ap_int_base<48, true> const&)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:38)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:40)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<48, true>::RType<($_0)32, true>::mult operator*<48, true>(ap_int_base<48, true> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:34)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::RType<($_0)32, true>::mult operator*<16, false>(ap_int_base<16, false> const&, int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:58:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'pool_layer1(float*, float*)' (src/pool.cpp:57:23)
+INFO: [HLS 214-178] Inlining function 'conv_layer0(float*, float*, float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'pool_layer0(float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'conv_layer1(float*, float*, float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'pool_layer1(float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'linear_fc0(float*, float*, float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'linear_fc1(float*, float*, float*, float*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-178] Inlining function 'fmax(float*, int*)' into 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+WARNING: [HLS 214-205] The INTERFACE pragma must have a max_widen_bitwidth setting that is both a power of 2 and in the range [0, 1024]. The current value of '0' will be ignored, in 'lenet5(float*, float*, float*, float*, float*, float*, float*, float*, float*, float*, int*)' (src/LeNet5.cpp:14:0)
+INFO: [HLS 214-115] Multiple burst writes of length 10 and bit width 32 in loop 'VITIS_LOOP_51_1'(src/linear.cpp:51:19) has been inferred on port 'gmem' (src/linear.cpp:51:19)
+INFO: [HLS 214-115] Multiple burst reads of length 9 and bit width 32 in loop 'VITIS_LOOP_11_1'(src/softmax.cpp:11:19) has been inferred on port 'gmem' (src/softmax.cpp:11:19)
+INFO-FLOW: DBG:CMD: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.854 seconds; current allocated memory: 196.211 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 196.212 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top lenet5 -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.0.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+Command         transform done; 11.615 sec.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 6 seconds. CPU system time: 0 seconds. Elapsed time: 11.674 seconds; current allocated memory: 204.563 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.1.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+Command         transform done; 11.716 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.2.prechk.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 11.79 seconds; current allocated memory: 209.346 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.g.1.bc to E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db -interface-port-rename -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -function-uniquify -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.1.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_34_3' (src/conv.cpp:29) in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_27_3' (src/pool.cpp:29) in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_78_6' in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_49_3' (src/pool.cpp:51) in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_27_4' (src/linear.cpp:19) in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_54_2' (src/linear.cpp:49) in function 'lenet5' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_11_1' (src/softmax.cpp:8) in function 'lenet5' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_34_3' (src/conv.cpp:29) in function 'lenet5' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_27_3' (src/pool.cpp:29) in function 'lenet5' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_49_3' (src/pool.cpp:51) in function 'lenet5' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_37_4' (src/conv.cpp:29) in function 'lenet5' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_38_5' (src/conv.cpp:29) in function 'lenet5' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_30_4' (src/pool.cpp:29) in function 'lenet5' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_31_5' in function 'lenet5' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_52_4' (src/pool.cpp:51) in function 'lenet5' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_53_5' in function 'lenet5' completely with a factor of 2.
+Command         transform done; 11.914 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -barrier -norm-name E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.1.tmp.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-11] Balancing expressions in function 'lenet5' (src/LeNet5.cpp:3)...7 expression(s) balanced.
+Command         transform done; 0.176 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 6 seconds. CPU system time: 0 seconds. Elapsed time: 12.145 seconds; current allocated memory: 237.769 MB.
+Execute         get_config_compile -enable_loop_extract 
+Execute         get_config_compile -disable_auto_rewind 
+Execute         get_config_compile -enable_auto_rewind 
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin2 -bitwidthmin2 -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -float-op-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.2.bc -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_33_2' (src/conv.cpp:33:28) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_32_1' (src/conv.cpp:32:27) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_26_2' (src/pool.cpp:26:28) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_25_1' (src/pool.cpp:25:27) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_74_5' in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_73_4' (src/conv.cpp:65:12) in function 'lenet5'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_70_3' (src/conv.cpp:65:12) in function 'lenet5' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_69_2' (src/conv.cpp:69:28) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_68_1' (src/conv.cpp:68:27) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_48_2' (src/pool.cpp:48:28) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_47_1' (src/pool.cpp:47:27) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_25_3' (src/linear.cpp:19:12) in function 'lenet5'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_24_2' (src/linear.cpp:19:12) in function 'lenet5'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_21_1' (src/linear.cpp:19:12) in function 'lenet5' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_51_1' (src/linear.cpp:49:12) in function 'lenet5'.
+INFO: [HLS 200-472] Inferring partial write operation for 'feature_out_conv0' (src/conv.cpp:54:44)
+INFO: [HLS 200-472] Inferring partial write operation for 'feature_out_pool0' (src/pool.cpp:39:43)
+INFO: [HLS 200-472] Inferring partial write operation for 'feature_out_conv1' (src/conv.cpp:90:43)
+INFO: [HLS 200-472] Inferring partial write operation for 'feature_out_pool1' (src/pool.cpp:61:42)
+INFO: [HLS 200-472] Inferring partial write operation for 'feature_out_fc0' (src/linear.cpp:39:21)
+Command         transform done; 8.779 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 8.839 seconds; current allocated memory: 242.286 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 44.456 sec.
+Command     elaborate done; 64.154 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'lenet5' ...
+Execute       ap_set_top_model lenet5 
+Execute       get_model_list lenet5 -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model lenet5 
+Execute       get_model_list lenet5 -filter all-wo-channel 
+INFO-FLOW: Model list for configure: lenet5
+INFO-FLOW: Configuring Module : lenet5 ...
+Execute       set_default_model lenet5 
+Execute       apply_spec_resource_limit lenet5 
+INFO-FLOW: Model list for preprocess: lenet5
+INFO-FLOW: Preprocessing Module: lenet5 ...
+Execute       set_default_model lenet5 
+Execute       cdfg_preprocess -model lenet5 
+Execute       rtl_gen_preprocess lenet5 
+INFO-FLOW: Model list for synthesis: lenet5
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'lenet5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model lenet5 
+Execute       schedule -model lenet5 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-1457] Automatically inferring 1WnR RAM type for array 'feature_out_conv1'. Use bind_storage pragma to overwrite if needed.
+INFO: [HLS 200-1457] Automatically inferring 1WnR RAM type for array 'feature_out_conv0'. Use bind_storage pragma to overwrite if needed.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_32_1_VITIS_LOOP_33_2_VITIS_LOOP_34_3'.
+WARNING: [HLS 200-885] Unable to schedule bus request on port 'gmem' (src/conv.cpp:32) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 51, Depth = 172, loop 'VITIS_LOOP_32_1_VITIS_LOOP_33_2_VITIS_LOOP_34_3'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_25_1_VITIS_LOOP_26_2_VITIS_LOOP_27_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'VITIS_LOOP_25_1_VITIS_LOOP_26_2_VITIS_LOOP_27_3'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_73_4_VITIS_LOOP_74_5_VITIS_LOOP_78_6'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 19, loop 'VITIS_LOOP_73_4_VITIS_LOOP_74_5_VITIS_LOOP_78_6'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_47_1_VITIS_LOOP_48_2_VITIS_LOOP_49_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 10, loop 'VITIS_LOOP_47_1_VITIS_LOOP_48_2_VITIS_LOOP_49_3'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_24_2_VITIS_LOOP_25_3_VITIS_LOOP_27_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 18, loop 'VITIS_LOOP_24_2_VITIS_LOOP_25_3_VITIS_LOOP_27_4'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'.
+WARNING: [HLS 200-880] The II Violation in module 'lenet5' (loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'fadd' operation ('sum', src/linear.cpp:57) and 'select' operation ('select_ln51_1', src/linear.cpp:51).
+WARNING: [HLS 200-880] The II Violation in module 'lenet5' (loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'fadd' operation ('sum', src/linear.cpp:57) and 'select' operation ('select_ln51_1', src/linear.cpp:51).
+WARNING: [HLS 200-880] The II Violation in module 'lenet5' (loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'fadd' operation ('sum', src/linear.cpp:57) and 'select' operation ('select_ln51_1', src/linear.cpp:51).
+WARNING: [HLS 200-880] The II Violation in module 'lenet5' (loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'fadd' operation ('sum', src/linear.cpp:57) and 'select' operation ('select_ln51_1', src/linear.cpp:51).
+INFO: [SCHED 204-61] Discarding stage scheduling solution.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 26, loop 'VITIS_LOOP_51_1_VITIS_LOOP_54_2'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_11_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_11_1'
+WARNING: [HLS 200-871] Estimated clock period (9.901ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'lenet5' consists of the following:	'fcmp' operation ('tmp_42', src/softmax.cpp:13) [1433]  (4.2 ns)
+	'and' operation ('and_ln13_1', src/softmax.cpp:13) [1434]  (0.8 ns)
+	'select' operation ('max', src/softmax.cpp:13) [1435]  (0.705 ns)
+	'phi' operation ('max') with incoming values : ('max', src/softmax.cpp:8) ('max', src/softmax.cpp:13) [1411]  (0 ns)
+	'fcmp' operation ('tmp_42', src/softmax.cpp:13) [1433]  (4.2 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 1.73 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.831 seconds; current allocated memory: 246.641 MB.
+Execute       syn_report -verbosereport -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Command       syn_report done; 0.808 sec.
+Execute       db_write -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.sched.adb -f 
+Command       db_write done; 0.112 sec.
+INFO-FLOW: Finish scheduling lenet5.
+Execute       set_default_model lenet5 
+Execute       bind -model lenet5 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.649 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.637 seconds; current allocated memory: 253.054 MB.
+Execute       syn_report -verbosereport -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Command       syn_report done; 0.981 sec.
+Execute       db_write -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.bind.adb -f 
+Command       db_write done; 0.152 sec.
+INFO-FLOW: Finish binding lenet5.
+Execute       get_model_list lenet5 -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess lenet5 
+INFO-FLOW: Model list for RTL generation: lenet5
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'lenet5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model lenet5 -top_prefix  -sub_prefix lenet5_ -mg_file E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/w_conv0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/b_conv0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/w_conv1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/b_conv1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/w_fc0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/b_fc0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/w_fc1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/b_fc1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/feature_in' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/feature_out' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/result' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'lenet5' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'w_conv0', 'b_conv0', 'w_conv1', 'b_conv1', 'w_fc0', 'b_fc0', 'w_fc1', 'b_fc1', 'feature_in', 'feature_out', 'result' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'lenet5'.
+Command       create_rtl_model done; 0.557 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.77 seconds; current allocated memory: 264.367 MB.
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute       gen_rtl lenet5 -istop -style xilinx -f -lang vhdl -o E:/HLSproj/LeNet5_hls_proj/solution1/syn/vhdl/lenet5 
+Command       gen_rtl done; 0.549 sec.
+Execute       gen_rtl lenet5 -istop -style xilinx -f -lang vlog -o E:/HLSproj/LeNet5_hls_proj/solution1/syn/verilog/lenet5 
+Command       gen_rtl done; 0.3 sec.
+Execute       syn_report -csynth -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/syn/report/lenet5_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Command       syn_report done; 0.285 sec.
+Execute       syn_report -rtlxml -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/syn/report/lenet5_csynth.xml 
+Execute         get_solution -flow_target
+Execute           get_solution -flow_target 
+Command       syn_report done; 0.274 sec.
+Execute       syn_report -verbosereport -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Command       syn_report done; 1.214 sec.
+Execute       db_write -model lenet5 -f -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.adb 
+Command       db_write done; 0.437 sec.
+Execute       gen_tb_info lenet5 -p E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5 
+Execute       export_constraint_db -f -tool general -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+Execute       syn_report -designview -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.design.xml 
+Command       syn_report done; 0.543 sec.
+Execute       syn_report -csynthDesign -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/syn/report/csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Execute       get_config_rtl -disable_wave_debug 
+Execute       syn_report -wcfg -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model lenet5 -o E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.protoinst 
+Execute       get_config_debug -directory 
+Execute       sc_get_clocks lenet5 
+Execute       get_config_export -vivado_clock 
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       sc_get_portdomain lenet5 
+INFO-FLOW: Model list for RTL component generation: lenet5
+INFO-FLOW: Handling components in module [lenet5] ... 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+INFO-FLOW: Found component lenet5_fadd_32ns_32ns_32_5_full_dsp_1.
+INFO-FLOW: Append model lenet5_fadd_32ns_32ns_32_5_full_dsp_1
+INFO-FLOW: Found component lenet5_fmul_32ns_32ns_32_4_max_dsp_1.
+INFO-FLOW: Append model lenet5_fmul_32ns_32ns_32_4_max_dsp_1
+INFO-FLOW: Found component lenet5_fcmp_32ns_32ns_1_2_no_dsp_1.
+INFO-FLOW: Append model lenet5_fcmp_32ns_32ns_1_2_no_dsp_1
+INFO-FLOW: Found component lenet5_facc_32ns_32ns_1ns_32_5_no_dsp_1.
+INFO-FLOW: Append model lenet5_facc_32ns_32ns_1ns_32_5_no_dsp_1
+INFO-FLOW: Found component lenet5_feature_out_conv0.
+INFO-FLOW: Append model lenet5_feature_out_conv0
+INFO-FLOW: Found component lenet5_feature_out_pool0.
+INFO-FLOW: Append model lenet5_feature_out_pool0
+INFO-FLOW: Found component lenet5_feature_out_conv1.
+INFO-FLOW: Append model lenet5_feature_out_conv1
+INFO-FLOW: Found component lenet5_feature_out_pool1.
+INFO-FLOW: Append model lenet5_feature_out_pool1
+INFO-FLOW: Found component lenet5_feature_out_fc0.
+INFO-FLOW: Append model lenet5_feature_out_fc0
+INFO-FLOW: Found component lenet5_control_s_axi.
+INFO-FLOW: Append model lenet5_control_s_axi
+INFO-FLOW: Found component lenet5_gmem_m_axi.
+INFO-FLOW: Append model lenet5_gmem_m_axi
+INFO-FLOW: Append model lenet5
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: lenet5_fadd_32ns_32ns_32_5_full_dsp_1 lenet5_fmul_32ns_32ns_32_4_max_dsp_1 lenet5_fcmp_32ns_32ns_1_2_no_dsp_1 lenet5_facc_32ns_32ns_1ns_32_5_no_dsp_1 lenet5_feature_out_conv0 lenet5_feature_out_pool0 lenet5_feature_out_conv1 lenet5_feature_out_pool1 lenet5_feature_out_fc0 lenet5_control_s_axi lenet5_gmem_m_axi lenet5
+INFO-FLOW: To file: write model lenet5_fadd_32ns_32ns_32_5_full_dsp_1
+INFO-FLOW: To file: write model lenet5_fmul_32ns_32ns_32_4_max_dsp_1
+INFO-FLOW: To file: write model lenet5_fcmp_32ns_32ns_1_2_no_dsp_1
+INFO-FLOW: To file: write model lenet5_facc_32ns_32ns_1ns_32_5_no_dsp_1
+INFO-FLOW: To file: write model lenet5_feature_out_conv0
+INFO-FLOW: To file: write model lenet5_feature_out_pool0
+INFO-FLOW: To file: write model lenet5_feature_out_conv1
+INFO-FLOW: To file: write model lenet5_feature_out_pool1
+INFO-FLOW: To file: write model lenet5_feature_out_fc0
+INFO-FLOW: To file: write model lenet5_control_s_axi
+INFO-FLOW: To file: write model lenet5_gmem_m_axi
+INFO-FLOW: To file: write model lenet5
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+Execute       get_top 
+Execute       get_config_export -ipname 
+Execute       get_config_export -xo 
+Execute       get_config_export -format 
+Execute       get_config_rtl -module_auto_prefix 
+INFO-FLOW: DBG:CMD:   auto_impl: set ipname to top (module_auto_prefix): lenet5
+INFO-FLOW: DBG:CMD: auto_generate_csynth_design
+INFO-FLOW: DBG:CMD:     auto_generate --sim-model -phase csynth_design -d E:/HLSproj/LeNet5_hls_proj/solution1
+Execute       get_solution -flow_target 
+Execute       get_config_export -xo 
+Execute       get_config_export -format 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/common.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/interface.gen 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=1 export=0 expOnly=0 dstVlogDir=syn/verilog
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'lenet5_feature_out_conv0_ram (RAM_1WnR)' using auto RAMs.
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'lenet5_feature_out_pool0_ram (RAM)' using auto RAMs.
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'lenet5_feature_out_conv1_ram (RAM_1WnR)' using auto RAMs.
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'lenet5_feature_out_pool1_ram (RAM)' using auto RAMs.
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [RTMG 210-278] Implementing memory 'lenet5_feature_out_fc0_ram (RAM)' using auto RAMs.
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         source ./control.slave.tcl 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Command       ap_source done; 0.325 sec.
+INFO-FLOW: DBG:CMD:     auto_generate -export -impltomg_flag -rtl both -tool Vivado -pcore_version 1.00.a -phase csynth_design -d E:/HLSproj/LeNet5_hls_proj/solution1
+Execute       get_solution -flow_target 
+Execute       get_config_export -xo 
+Execute       get_config_export -format 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/common.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/interface.gen 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=lenet5 xml_exists=0
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       export_impl_rtl
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.verilog
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=1 expOnly=1 dstVlogDir=impl/.pcores/verilog
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.pcores/verilog_sim
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       hasPcoreIpAdapter=false #gSsdmPorts=0
+INFO-FLOW: DBG:CMD: Skipping loadAnalyze_DB, #g_database=12
+INFO-FLOW: DBG:CMD:       generate_json is_phase_csynth=1 g_has_adaptors=false generate_bd_files=0 #modelList=12 #gSsdmPorts=0
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/tps/tcl/tcllib1.11.1/fileutil/fileutil.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/top-io-be.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.dataonly.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.dataonly.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.dataonly.tcl 
+Execute       get_config_export -format 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       get_solution -flow_target 
+Execute       get_config_rtl -kernel_profile 
+Execute       get_config_rtl -kernel_profile 
+Execute       get_config_rtl -stall_sig_gen 
+Execute       get_config_rtl -profile 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+Execute       sc_get_clocks lenet5 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_debug -directory 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/impl/misc/FAcc_ip.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/impl/misc/lenet5_ap_fadd_3_full_dsp_32_ip.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/impl/misc/lenet5_ap_fcmp_0_no_dsp_32_ip.tcl 
+Execute       source E:/HLSproj/LeNet5_hls_proj/solution1/impl/misc/lenet5_ap_fmul_2_max_dsp_32_ip.tcl 
+INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 5.669 seconds; current allocated memory: 290.356 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for lenet5.
+INFO: [VLOG 209-307] Generating Verilog RTL for lenet5.
+INFO-FLOW: DBG:CMD:       update_csynth_xml_report append design.xml content design_xml=E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.design.xml
+INFO-FLOW: DBG:CMD:       update_csynth_xml_report json2reportxml
+Execute       send_msg_by_id INFO @200-1603@%s  and missed bursts 
+INFO: [HLS 200-1603] Design has MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO-FLOW: DBG:CMD:       update_csynth_xml_report done
+Execute       syn_report -model lenet5 -printsummary 
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 101.00 MHz
+Command     autosyn done; 11.083 sec.
+Command   csynth_design done; 75.24 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 25 seconds. CPU system time: 1 seconds. Elapsed time: 75.316 seconds; current allocated memory: 291.027 MB.
+Command ap_source done; 76.731 sec.
+Execute cleanup_all 
+INFO-FLOW: Workspace E:/HLSproj/LeNet5_hls_proj/solution1 opened at Tue Aug 08 21:40:47 +0800 2023
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute       ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+DBG:HLSDevice: Trying to load device library: E:/Downloadcache/Xilinx/Vitis_HLS/2020.2\lib\win64.o\librdi_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: E:/Downloadcache/Xilinx/Vivado/2020.2/data/parts/arch.xml
+Command       ap_part_info done; 0.806 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         ap_part_info -data single -name xc7z100-ffg900-2 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute         config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_chip_info -speed medium 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_library_info -library zynq_medium 
+Execute         config_library_info -family zynq 
+Execute         config_library_info -part xc7z100:-ffg900:-2 
+Execute         import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       add_library done; 0.152 sec.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.989 sec.
+Execute     ap_part_info -data single -name xc7z100-ffg900-2 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute     config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_chip_info -speed medium 
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     get_config_interface -m_axi_latency 
+Execute     get_config_interface -m_axi_alignment_byte_size 
+Execute     get_config_interface -m_axi_max_widen_bitwidth 
+Execute     get_config_interface -default_interface 
+Execute     get_config_interface -m_axi_offset 
+Execute     get_config_rtl -register_reset_num 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -format=ip_catalog 
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -rtl=verilog 
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+Execute     config_export -rtl=verilog 
+Command   open_solution done; 1.185 sec.
+Execute   set_part xc7z100-ffg900-2 
+INFO: [HLS 200-1510] Running: set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute     ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute       get_default_platform 
+Execute       open_platform DefaultPlatform 
+Execute       ap_part_info -data single -name xc7z100-ffg900-2 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute       config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_chip_info -speed medium 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_library_info -library zynq_medium 
+Execute       config_library_info -family zynq 
+Execute       config_library_info -part xc7z100:-ffg900:-2 
+Execute       import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     add_library done; 0.11 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 0.14 sec.
+Execute   create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+Execute   config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+Execute   source ./LeNet5_hls_proj/solution1/directives.tcl 
+Execute     set_directive_top -name lenet5 lenet5 
+INFO: [HLS 200-1510] Running: set_directive_top -name lenet5 lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute   cosim_design 
+INFO: [HLS 200-1510] Running: cosim_design 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/common.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/interface.gen 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/main.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/main.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/main.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/main.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.95 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/LeNet5.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/LeNet5.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/LeNet5.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/LeNet5.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.838 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/conv.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/conv.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/conv.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/conv.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.522 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/linear.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/linear.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/linear.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/linear.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.402 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/pool.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/pool.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/pool.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/pool.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.503 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO-FLOW: TB processing: E:/HLSproj/src/softmax.cpp E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/softmax.cpp_pre.cpp
+Execute     clang_tidy xilinx-tb-process E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/softmax.cpp_pre.cpp.tb.cpp std=c++11 
+INFO-FLOW: exec E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors E:/HLSproj/LeNet5_hls_proj/solution1/./sim/autowrap/testbench/softmax.cpp_pre.cpp.tb.cpp -- -std=c++11 -fhls -ferror-limit=0
+Command     clang_tidy done; 0.402 sec.
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+WARNING: [COSIM 212-369] AXI_master port 'w_conv0' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'b_conv0' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'w_conv1' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'b_conv1' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'w_fc0' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'b_fc0' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'w_fc1' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'b_fc1' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'feature_in' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'feature_out' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'result' has a depth of '0'. Insufficient depth may result in simulation mismatch or freeze.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     source .run_sim.tcl 
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Command     ap_source done; 2.101 sec.
+INFO: [COSIM 212-333] Generating C post check test bench ...
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+INFO: [COSIM 212-12] Generating RTL test bench ...
+Execute     source ../tv/cdatafile/ref.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source ../tv/cdatafile/ref.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source ../tv/cdatafile/ref.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+Execute     source .run_sim.tcl 
+Execute       source check_sim.tcl 
+Execute       source dataflow_monitor_API.tcl 
+Execute       source .sim.status.tcl 
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+Command     ap_source done; 370.671 sec.
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+Command   cosim_design done; 403.026 sec.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 403.088 seconds; current allocated memory: 200.461 MB.
+Command ap_source done; 404.434 sec.
+Execute cleanup_all 
+INFO-FLOW: Workspace E:/HLSproj/LeNet5_hls_proj/solution1 opened at Tue Aug 08 22:09:05 +0800 2023
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute       ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+DBG:HLSDevice: Trying to load device library: E:/Downloadcache/Xilinx/Vitis_HLS/2020.2\lib\win64.o\librdi_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: E:/Downloadcache/Xilinx/Vivado/2020.2/data/parts/arch.xml
+Command       ap_part_info done; 0.779 sec.
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         ap_part_info -data single -name xc7z100-ffg900-2 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute         config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_chip_info -speed medium 
+Execute         ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute         config_library_info -library zynq_medium 
+Execute         config_library_info -family zynq 
+Execute         config_library_info -part xc7z100:-ffg900:-2 
+Execute         import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       add_library done; 0.135 sec.
+INFO: [HLS 200-10] Setting target device to 'xc7z100-ffg900-2'
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.953 sec.
+Execute     ap_part_info -data single -name xc7z100-ffg900-2 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute     config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_chip_info -speed medium 
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     get_config_interface -m_axi_latency 
+Execute     get_config_interface -m_axi_alignment_byte_size 
+Execute     get_config_interface -m_axi_max_widen_bitwidth 
+Execute     get_config_interface -default_interface 
+Execute     get_config_interface -m_axi_offset 
+Execute     get_config_rtl -register_reset_num 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -format=ip_catalog 
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1464@%s config_export -rtl=verilog 
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+Execute     config_export -rtl=verilog 
+Command   open_solution done; 1.145 sec.
+Execute   set_part xc7z100-ffg900-2 
+INFO: [HLS 200-1510] Running: set_part xc7z100-ffg900-2 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=E:/Downloadcache/Xilinx/Vivado/2020.2
+INFO-FLOW: DBG:set_part: RDI_DATADIR=E:/Downloadcache/Xilinx/Vivado/2020.2/data;E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/data
+Execute     ap_part_info -name xc7z100-ffg900-2 -data single -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     add_library xilinx/zynq/zynq:xc7z100:-ffg900:-2 
+Execute       get_default_platform 
+Execute       open_platform DefaultPlatform 
+Execute       ap_part_info -data single -name xc7z100-ffg900-2 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data resources 
+Execute       config_chip_info -resource {SLICE 69350} {LUT 277400} {FF 554800} {DSP 2020} {BRAM 1510} {URAM 0} 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_chip_info -speed medium 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute       config_library_info -library zynq_medium 
+Execute       config_library_info -family zynq 
+Execute       config_library_info -part xc7z100:-ffg900:-2 
+Execute       import_lib E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/zynq/zynq 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.hlp 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     add_library done; 0.11 sec.
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 0.14 sec.
+Execute   create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+Execute   config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+Execute   source ./LeNet5_hls_proj/solution1/directives.tcl 
+Execute     set_directive_top -name lenet5 lenet5 
+INFO: [HLS 200-1510] Running: set_directive_top -name lenet5 lenet5 
+INFO-FLOW: Setting directive 'TOP' name=lenet5 
+Execute   export_design -rtl verilog -format ip_catalog 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+Execute     get_config_export -clock_margin 
+Execute     get_config_export -custom_script 
+Execute     get_config_export -description 
+Execute     get_config_export -display_name 
+Execute     get_config_export -driver_input_dir 
+Execute     get_config_export -ipname 
+Execute     get_config_export -library 
+Execute     get_config_export -output 
+Execute     get_config_export -qor_test 
+Execute     get_config_export -sim 
+Execute     get_config_export -taxonomy 
+Execute     get_config_export -use_ip 
+Execute     get_config_export -use_netlist 
+Execute     get_config_export -vendor 
+Execute     get_config_export -version 
+Execute     get_config_export -xo 
+Execute     config_export -format=ip_catalog -rtl=verilog 
+INFO-FLOW: DBG:CMD: export_design_wrap: -format ip_catalog -rtl verilog
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_export -vivado_clock 
+Execute     get_top 
+Execute     get_config_export -ipname 
+Execute     get_config_export -xo 
+Execute     get_config_export -format 
+Execute     get_config_rtl -module_auto_prefix 
+INFO-FLOW: DBG:CMD:   auto_impl: set ipname to top (module_auto_prefix): lenet5
+Execute     get_solution -flow_target 
+Execute     get_config_export -xo 
+Execute     get_config_export -format 
+INFO-FLOW: DBG:CMD:   auto_impl: pack: -export -rtl verilog
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: automg_wrap -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+INFO-FLOW: DBG:CMD:     auto_generate -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+Execute     get_solution -flow_target 
+Execute     get_config_export -xo 
+Execute     get_config_export -format 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/common.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/interface.gen 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=lenet5 xml_exists=1
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       export_impl_rtl
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.verilog
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     get_config_export -disable_deadlock_detection 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     get_config_rtl -module_prefix 
+INFO-FLOW: DBG:CMD:       cosim_export_main adding deadlock detection to lenet5
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=1 expOnly=1 dstVlogDir=impl/.pcores/verilog
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute       ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.pcores/verilog_sim
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.tcl 
+Execute     get_config_export -disable_deadlock_detection 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     get_config_rtl -module_prefix 
+INFO-FLOW: DBG:CMD:       cosim_export_main adding deadlock detection to lenet5
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       hasPcoreIpAdapter=false #gSsdmPorts=0
+INFO-FLOW: DBG:CMD:       copying IP vlog from E:/HLSproj/LeNet5_hls_proj/solution1/impl/verilog
+INFO-FLOW: DBG:CMD:       copying IP vhdl from E:/HLSproj/LeNet5_hls_proj/solution1/impl/vhdl
+INFO-FLOW: DBG:CMD:       copy ip_driver_dir 1_0 E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/driver
+Execute     get_config_export -format 
+INFO-FLOW: DBG:CMD:       generate_ip_script #gSsdmPorts=0 g_lang=vlog is_sdaccel=false is_sdsoc=true xo_file=
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.dataonly.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.compgen.dataonly.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_debug -directory 
+INFO-FLOW: DBG:CMD:       generate_ip_auxiliary
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD:       prepArgInfo -> loadAnalyze_DB top_module=lenet5
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_top_info
+INFO-FLOW: DBG:CMD:       prepArgInfo -> loadAnalyze_DB top_module=lenet5
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.rtl_wrap.cfg.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+INFO-FLOW: DBG:CMD:       generate_ipi_example_script
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD:       generate_syn_sh
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD:       generate_imp_constraints
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.constraint.tcl 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/lenet5.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       copy-tb-files E:/HLSproj/LeNet5_hls_proj/solution1/impl/.verilog/sim_tbs
+INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD: read_platform_lib E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/common.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/generic/autopilot/interface.gen 
+Execute     source E:/HLSproj/LeNet5_hls_proj/solution1/.autopilot/db/global.setting.tcl 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/maxi.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/util.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source E:/Downloadcache/Xilinx/Vitis_HLS/2020.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data names -quiet 
+Execute     ap_part_info -name xc7z100-ffg900-2 -data info -quiet 
+INFO-FLOW: DBG:CMD:     exec E:/HLSproj/LeNet5_hls_proj/solution1/impl/ip/pack.bat
+Execute     get_config_export -output 
+Execute     send_msg_by_id INFO @200-802@%s LeNet5_hls_proj/solution1/impl/export.zip 
+INFO: [HLS 200-802] Generated output file LeNet5_hls_proj/solution1/impl/export.zip
+Command   export_design done; 16.464 sec.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 16.51 seconds; current allocated memory: 201.190 MB.
+Command ap_source done; 17.814 sec.
+Execute cleanup_all 

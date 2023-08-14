@@ -1,0 +1,27 @@
+verilog xil_defaultlib --include "E:/Downloadcache/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../LeNet5.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../LeNet5.gen/sources_1/bd/system/ipshared/34f8/hdl" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_control_s_axi.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_facc_32ns_32ns_1ns_32_5_no_dsp_1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_fadd_32ns_32ns_32_5_full_dsp_1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_fcmp_32ns_32ns_1_2_no_dsp_1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_feature_out_conv0.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_feature_out_conv1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_feature_out_fc0.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_feature_out_pool0.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_feature_out_pool1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_fmul_32ns_32ns_32_4_max_dsp_1.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5_gmem_m_axi.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/verilog/lenet5.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/ip/FAcc.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/ip/lenet5_ap_fadd_3_full_dsp_32.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/ip/lenet5_ap_fcmp_0_no_dsp_32.v" \
+"../../../../LeNet5.gen/sources_1/bd/system/ipshared/73ef/hdl/ip/lenet5_ap_fmul_2_max_dsp_32.v" \
+"../../../bd/system/ip/system_lenet5_0_0/sim/system_lenet5_0_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" \
+"../../../bd/system/ip/system_auto_us_0/sim/system_auto_us_0.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

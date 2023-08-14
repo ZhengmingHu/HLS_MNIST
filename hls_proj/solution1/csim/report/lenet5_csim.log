@@ -1,0 +1,25 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../src/main.cpp in debug mode
+   Compiling ../../../../src/LeNet5.cpp in debug mode
+   Compiling ../../../../src/conv.cpp in debug mode
+   Compiling ../../../../src/linear.cpp in debug mode
+   Compiling ../../../../src/pool.cpp in debug mode
+   Compiling ../../../../src/softmax.cpp in debug mode
+   Generating csim.exe
+
+---**LAYER0+LAYER1+FC0**---
+
+FC1_OUT[0]=6242304.000000
+FC1_OUT[1]=7225344.000000
+FC1_OUT[2]=8208384.000000
+FC1_OUT[3]=9191424.000000
+FC1_OUT[4]=10174464.000000
+FC1_OUT[5]=11157504.000000
+FC1_OUT[6]=12140544.000000
+FC1_OUT[7]=13123584.000000
+FC1_OUT[8]=14106624.000000
+FC1_OUT[9]=15089664.000000
+result:9
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
